@@ -1,5 +1,21 @@
 # praktikum6
 
+	
+  
+  **Tugas Praktikum**
+  
+  Buat program sederhana dengan mengaplikasikan penggunaan fungsi
+  yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan:
+  • Fungsi tambah() untuk menambah data
+  • Fungsi tapilkan() untuk menampilkan data
+  • Fungsi hapus(nama) untuk menghapus data berdasarkan nama
+  • Fungsi ubah(nama) untuk mengubah data berdasarkan nama
+  • Buat flowchart dan penjelasan programnya pada README.md. 
+  • Commit dan push repository ke github.
+
+
+
+
 	@author: febri aditiya
 	"""
 
@@ -11,14 +27,14 @@
 
 
 	def tambah():
-     		print("Tambah Data")
-     		nama  = input("Nama                  : ")
-     		nim   = input("Nim                   : ")
-     		tugas = float(input("Masukkan Nilai Tugas  : "))
-     		uts   = float(input("Masukkan Nilai UTS    : "))
-     		uas   = float(input("Masukkan Nilai UAS    : "))
-     		akhir = (0.30 * tugas) + (0.35 * uts) + (0.35 * uas)
-     		data[nama] = nim, tugas, uts, uas, akhir
+     	     print("Tambah Data")
+     	     nama  = input("Nama                  : ")
+     	     nim   = input("Nim                   : ")
+     	     tugas = float(input("Masukkan Nilai Tugas  : "))
+     	     uts   = float(input("Masukkan Nilai UTS    : "))
+     	     uas   = float(input("Masukkan Nilai UAS    : "))
+     	     akhir = (0.30 * tugas) + (0.35 * uts) + (0.35 * uas)
+     	     data[nama] = nim, tugas, uts, uas, akhir
      
 	def tampilkan():
     	    if data.items():
@@ -87,3 +103,29 @@
         	print("||======================================||")
         	print("||       >>>   Program Eror   <<<       ||")
         	print("||======================================||")
+
+ ## Hasil Output
+
+ ![1.png](/gambar/1.png)
+
+ ## Tambah Data
+
+ ![2.png](/gambar/2.png)
+  
+  ``Lihat Data``
+
+ ![3.png](/gambar/3.png)
+
+ ## Ubah Data
+
+ ![4.png](/gambar/4.png)
+
+  ``Lihat Data``
+
+ ![5.png](/gambar/5.png)
+
+ ## Hapus Data
+
+ ![6.png](/gambar/6.png)
+
+ # Selesai
